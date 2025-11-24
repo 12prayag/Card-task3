@@ -21,7 +21,7 @@ body {
 
 .card-sec {
     background: white;
-    height: 320px;
+    /* height: 320px; */
     flex: 0 0 calc((100% - 40px) / 3);
     
 }
@@ -49,8 +49,8 @@ body {
 
     padding: 22px;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     display: flex;
     flex-direction: column;
 }
@@ -58,8 +58,6 @@ body {
 .heading-sec {
 
     padding-bottom: 20px;
-
-
     text-align: center;
 }
 
@@ -75,7 +73,7 @@ body {
     .card-sec {
 
 
-        height: 300px;
+        
 
         flex: 0 0 calc((100% - 40px) / 2);
     }
@@ -86,7 +84,7 @@ body {
 @media (max-width:767.99px) {
     .card-sec {
 
-        height: 300px;
+       
 
         flex: 0 0 calc((100% - 40px) / 2);
     }
@@ -98,7 +96,7 @@ body {
     .card-sec {
 
 
-        height: 300px;
+       
 
         flex: 0 0 calc((100% - 40px) / 1);
     }
