@@ -59,6 +59,8 @@ body {
 
 .heading-sec {
     margin-bottom: 20px;
+    font-size: 22px;
+    flex-grow: 1;
 }
 
 .loremn-sec {
@@ -66,18 +68,17 @@ body {
     font-size: 16px;
 }
 
-.card-containt {
-    flex-grow: 1;
-}
+
 
 @media (max-width:1023.99px) {
     .card-sec {
         flex: 0 0 calc((100% - 20px) / 2);
     }
-.card-section {
-    padding-block: 38px;
-    
-}
+
+    .card-section {
+        padding-block: 38px;
+
+    }
 
 }
 
@@ -86,21 +87,23 @@ body {
 
         flex: 0 0 calc((100% - 20px) / 2);
     }
-.card-section {
-    padding-block: 30px;
-    
-}
+
+    .card-section {
+        padding-block: 30px;
+
+    }
 
 }
 
 @media (max-width:575px) {
     .card-sec {
 
-        flex:  0 calc((100% - 10px) / 1);
+        flex: 1 0 calc((100% - 10px) / 1);
     }
-.card-section {
-    padding-block: 28px;
-    
-}
+
+    .card-section {
+        padding-block: 28px;
+
+    }
 
 }
